@@ -9,7 +9,7 @@ const Navbar = () => {
         <img src={Logo} alt="Logo Image" style={{ width: "50px" }} />
       </div>
 
-      <div>
+      <div className='hidden md:flex'>
         <ul className='flex'>
           <li>Home</li>
           <li>About</li>
@@ -29,7 +29,7 @@ const Navbar = () => {
         <li>Contact</li>
       </ul>
 
-      <div></div>
+      <div className='hidden'></div>
     </div>
   )
 }
