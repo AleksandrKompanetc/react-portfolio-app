@@ -9,17 +9,19 @@ const Navbar = () => {
         <img src={Logo} alt="Logo Image" style={{ width: "50px" }} />
       </div>
 
-      <div className='hidden md:flex'>
-        <ul className='flex'>
-          <li>Home</li>
-          <li>About</li>
-          <li>Skills</li>
-          <li>Work</li>
-          <li>Contact</li>
-        </ul>
-      </div>
 
-      <div className='hidden'><FaBars /></div>
+      <ul className='hidden md:flex'>
+        <li>Home</li>
+        <li>About</li>
+        <li>Skills</li>
+        <li>Work</li>
+        <li>Contact</li>
+      </ul>
+
+
+      <div className='md:hidden'>
+        <FaBars />
+      </div>
 
       <ul className='hidden'>
         <li>Home</li>
