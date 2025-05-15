@@ -36,7 +36,7 @@ const Navbar = () => {
         <li className='py-6 text-4xl'>Contact</li>
       </ul>
 
-      <div className='fixed flex flex-col top-[35%] left-0'>
+      <div className='hidden fixed lg:flex flex-col top-[35%] left-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a 
@@ -46,28 +46,28 @@ const Navbar = () => {
               LinkedIn <FaLinkedinIn size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a 
               href="/"
               className='w-full flex justify-between items-center text-gray-300'
               >
-              LinkedIn <FaLinkedinIn size={30} />
+              Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a 
               href="/"
               className='w-full flex justify-between items-center text-gray-300'
               >
-              LinkedIn <FaLinkedinIn size={30} />
+              Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a 
               href="/"
               className='w-full flex justify-between items-center text-gray-300'
               >
-              LinkedIn <FaLinkedinIn size={30} />
+              Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>
