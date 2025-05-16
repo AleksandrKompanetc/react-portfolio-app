@@ -9,6 +9,9 @@ const Home = () => {
         <h1>Aleksandr Kompanetc</h1>
         <h2>I'm a Full Stack Developer</h2>
         <p>I'm a full-stack developer specializing in building exceptional digital experiances.</p>
+        <div>
+          <button>View Work <HiArrowNarrowRight /></button>
+        </div>
       </div>
     </div>
   )
