@@ -16,13 +16,15 @@ const Work = () => {
           className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             <div className='opacity-0 group-hover:opacity-100'>
-              <span></span>
-              <div>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                React JS Application
+              </span>
+              <div className='pt-8 text-center'>
                 <a href="/">
-                  <button></button>
+                  <button>Demo</button>
                 </a>
                 <a href="/">
-                  <button></button>
+                  <button>Code</button>
                 </a>
               </div>
             </div>
